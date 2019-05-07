@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in</title>
+	<!-- css section starts -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- css section ends -->
+	<!-- logo start -->
+	    <link rel="icon" href="logo.png">
+	<!-- logo ends -->
+</head>
+<body>
+
+  <!-- Navbar section starts -->
+  
+		 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">Stack Hack</a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarsExample07">
+		      <ul class="navbar-nav ml-auto">
+		        <li class="nav-item active px-3">
+		          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		        </li>
+		        <li class="nav-item active px-3">
+		          <a class="nav-link" href="#">Features</a>
+		        </li>
+		        <li class="nav-item active px-3">
+		          <a class="nav-link" href="#">Contact Us</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+  <!-- Navbar section end -->
+
+  <div class="container my-5">
+  	<div class="row high">
+  		<!-- left side image section start -->
+	  		<div class="col-md-7 col-5">
+	  			<img src="bg.png" alt="img"/>
+	  		</div>
+  		<!--  left image section ends -->
+  		<!-- Log in Section starts  -->
+	  		<div class="col-md-4 col-7 mx-2 p-5 login">
+	  			<p class="login_title text-center">Login</p>
+	  			<form action="#" method="POST" onsubmit="formHandler(event)" class="small_font">
+	  				<input type="email" class="form-control" name="email" id="email" placeholder="email" required>
+	  				<input type="password" class="form-control" name="password" id="password" placeholder="password" required><br/>
+	  				<center>
+	  					<button class="btn btn-primary btn-sm">
+	  						<span id="login_text">Login</span>
+	  						<div class="spinner-border spinner-border-sm" id="loader" role="status">
+							    <span class="sr-only">Loading...</span>
+							</div>
+	  					</button>
+	  					<p>
+	  						<a href="#">Forgot password</a><br/>
+	  						<span>Not a member ? <a href="#">sign up</a></span>
+	  					</p>
+	  				</center>
+	  			</form>
+	  		</div>
+  		<!-- Log in Section ends -->
+  	</div>
+    
+     <!-- footer start -->
+
+    <footer class="my-md-5 pt-md-5 font">
+      <div class="row footer">
+      	  <a href="#" id="logo"><img class="logo" src="logo.png" alt="logo"/></a>
+          <a href="#" class="nav-link">Privacy Policy</a>
+          <a href="#" class="nav-link">Terms & Conditions</a>
+          <a href="#" class="nav-link">FAQ</a>
+          <a href="#" class="nav-link">About us</a>
+          <form class="form-inline my-2 my-lg-0 ml-auto" method="POST" action="#">
+			      <input class="form-control mr-sm-2 font" type="email" placeholder="youremail">
+			      <button class="btn btn-outline-primary my-2 my-sm-0 btn-sm" type="submit">Subscribe</button>
+          </form>
+       </div>
+    </footer>
+
+  <!-- footer end -->
+
+</div>
+<!-- javascripts start  -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+<!-- javascripts ends -->
+</body>
+</html>

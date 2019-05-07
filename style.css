@@ -1,0 +1,59 @@
+body{
+	overflow-x: hidden;
+	/*font-family: "Roboto","Bebas Neue","Black Diamonds";*/
+}
+
+.high{
+  min-height: 100vh;
+ 
+}
+
+.logo{
+	height: 25px;
+	width: 25px;
+}
+
+#loader{
+	display: none;
+}
+
+.login_title{
+	font-size: x-large;
+	font-weight: bold;
+	color: #007BFF;
+}
+
+img{
+	width: 100%;
+}
+
+input{
+  outline: 0 !important;
+  border-width: 0 0 2px !important;
+  box-shadow: none !important;
+  border-color: #007BFF !important;
+}
+input:focus {
+  border-color: green !important;
+}
+
+.nav-link{
+	cursor: pointer;
+}
+.font{
+	color:#007BFF;
+    font-size: 12px;
+}
+
+::placeholder{
+	color:#007BFF !important;
+}
+
+@media (max-width: 992px){
+         #logo{
+         	display: none;
+         }
+         .small_font{
+         	font-size: 12px;
+         }
+	}
